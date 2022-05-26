@@ -18,3 +18,7 @@ resource "aws_security_group" "from_europe" {
   }
 }
 
+
+output "cidr" {
+  value = length(data.aws_ip_ranges.european_ec2.cidr_blocks)
+}

@@ -3,3 +3,6 @@
 */terraform.tfstate.backup
 */.terraform
 */mykey*
+private_ips.txt
+.terraform.lock.hcl
+
