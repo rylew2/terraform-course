@@ -1,6 +1,6 @@
 variable "AWS_REGION" {
   type    = string
-  default = "eu-west-1"
+  default = "us-west-2"
 }
 variable "project_tags" {
   type          = map(string)
@@ -9,4 +9,3 @@ variable "project_tags" {
     Environment = "Production"
   }
 }
-

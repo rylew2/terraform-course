@@ -1,5 +1,5 @@
 variable "AWS_REGION" {
-  default = "eu-west-1"
+  default = "us-west-2"
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
@@ -13,4 +13,3 @@ variable "PATH_TO_PUBLIC_KEY" {
 variable "ENV" {
   default = "prod"
 }
-

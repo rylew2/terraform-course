@@ -35,7 +35,7 @@ resource "aws_instance" "jenkins-instance" {
 }
 
 resource "aws_ebs_volume" "jenkins-data" {
-  availability_zone = "eu-west-1a"
+  availability_zone = "us-west-2a"
   size              = 20
   type              = "gp2"
   tags = {
@@ -64,4 +64,3 @@ resource "aws_instance" "app-instance" {
   # the public SSH key
   key_name = aws_key_pair.mykeypair.key_name
 }
-

@@ -14,7 +14,7 @@ variable "AWS_REGION" {
 #  default = {
 #    us-east-1 = "ami-30540427"
 #    us-west-2 = "ami-9f5efbff"
-#    eu-west-1 = "ami-7ac78809"
+#    us-west-2 = "ami-7ac78809"
 #  }
 #}
 
