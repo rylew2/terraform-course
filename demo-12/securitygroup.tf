@@ -20,6 +20,7 @@ resource "aws_security_group" "example-instance" {
   }
 }
 
+// points another security group for ingress
 resource "aws_security_group" "allow-mariadb" {
   vpc_id      = aws_vpc.main.id
   name        = "allow-mariadb"
@@ -41,4 +42,3 @@ resource "aws_security_group" "allow-mariadb" {
     Name = "allow-mariadb"
   }
 }
-

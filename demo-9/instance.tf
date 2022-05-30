@@ -10,6 +10,9 @@ resource "aws_instance" "example" {
 
   # the public SSH key
   key_name = aws_key_pair.mykeypair.key_name
+
+  private_ip = 
+
 }
 
 resource "aws_ebs_volume" "ebs-volume-1" {

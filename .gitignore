@@ -5,4 +5,5 @@
 */mykey*
 private_ips.txt
 .terraform.lock.hcl
+.terraform.tfstate.lock.info
 

@@ -15,9 +15,10 @@ variable "AMIS" {
   default = {
     us-east-1 = "ami-13be557e"
     us-west-2 = "ami-06b94666"
-    us-west-2 = "ami-844e0bf7"
+    # us-west-2 = "ami-844e0bf7"
   }
 }
 
 variable "RDS_PASSWORD" {
+    default="jalalabad"
 }
